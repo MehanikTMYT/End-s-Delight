@@ -29,5 +29,6 @@
     }
   ],
   "item": "ends_delight:raw_ender_mite_meat",
-  "type": "ends_delight:endermite_meat"
+  "type": "ends_delight:endermite_meat",
+  "priority": 7
 }

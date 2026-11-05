@@ -20,5 +20,6 @@
     }
   ],
   "item": "ends_delight:enderman_gristle",
-  "type": "ends_delight:enderman_gristle"
+  "type": "ends_delight:enderman_gristle",
+  "priority": 3
 }

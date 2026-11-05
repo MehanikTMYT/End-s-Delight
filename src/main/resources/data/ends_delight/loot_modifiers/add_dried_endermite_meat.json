@@ -29,5 +29,6 @@
     }
   ],
   "item": "ends_delight:dried_endermite_meat",
-  "type": "ends_delight:endermite_meat"
+  "type": "ends_delight:endermite_meat",
+  "priority": 6
 }

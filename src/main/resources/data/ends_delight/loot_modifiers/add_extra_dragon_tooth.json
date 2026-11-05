@@ -20,5 +20,6 @@
     }
   ],
   "item": "ends_delight:dragon_tooth",
-  "type": "farmersdelight:add_item"
+  "type": "farmersdelight:add_item",
+  "priority": 1
 }

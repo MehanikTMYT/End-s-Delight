@@ -11,7 +11,7 @@ import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
 import net.neoforged.neoforge.common.loot.LootModifier;
-import org.jetbrains.annotations.NotNull;
+import org.jspecify.annotations.NonNull;
 
 import java.util.function.Supplier;
 
@@ -23,12 +23,12 @@ public class ShulkerMeatAdditionModifier extends LootModifier {
 
     private final Item item;
 
-    protected ShulkerMeatAdditionModifier(LootItemCondition[] conditionsIn, Item item) {
-        super(conditionsIn);
+    protected ShulkerMeatAdditionModifier(LootItemCondition[] conditionsIn, int priority, Item item) {
+        super(conditionsIn, priority);
         this.item = item;
     }
 
-    @NotNull
+    @NonNull
     @Override
     protected ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext context) {
         if (context.getRandom().nextFloat() > 0.1) {

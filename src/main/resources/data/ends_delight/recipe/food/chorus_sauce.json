@@ -1,20 +1,11 @@
 {
   "type": "farmersdelight:cooking",
   "ingredients": [
-    {
-      "item": "ends_delight:chorus_succulent"
-    },
-    {
-      "type": "neoforge:compound",
-      "children": [
-        {
-          "item": "minecraft:chorus_fruit"
-        },
-        {
-          "item": "ends_delight:chorus_fruit_grain"
-        }
-      ]
-    }
+    "ends_delight:chorus_succulent",
+    [
+      "minecraft:chorus_fruit",
+      "ends_delight:chorus_fruit_grain"
+    ]
   ],
   "result": {
     "id": "ends_delight:chorus_sauce"

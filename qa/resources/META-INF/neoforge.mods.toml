@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+[[mods]]
+modId="ends_delight_qa"
+version="1.0"
+displayName="End's Delight isolated QA"
+[[dependencies.ends_delight_qa]]
+modId="ends_delight"
+type="required"
+versionRange="[2.6.1,)"
+ordering="AFTER"
+side="BOTH"

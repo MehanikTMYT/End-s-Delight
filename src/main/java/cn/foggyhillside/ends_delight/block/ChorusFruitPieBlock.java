@@ -22,7 +22,7 @@ public class ChorusFruitPieBlock extends PieBlock {
         if (!playerIn.canEat(false)) {
             return InteractionResult.PASS;
         } else {
-            if(!level.isClientSide && playerIn.isShiftKeyDown()){
+            if(!level.isClientSide() && playerIn.isShiftKeyDown()){
                 Utils.BlockChorusFruitTeleport(level, playerIn);
             }
             return super.consumeBite(level, pos, state, playerIn);

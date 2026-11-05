@@ -9,5 +9,6 @@
     }
   ],
   "item": "ends_delight:dragon_tooth",
-  "type": "ends_delight:dragon_tooth"
+  "type": "ends_delight:dragon_tooth",
+  "priority": 4
 }

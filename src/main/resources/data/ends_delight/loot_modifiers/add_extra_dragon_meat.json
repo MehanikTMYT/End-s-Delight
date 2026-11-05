@@ -20,5 +20,6 @@
     }
   ],
   "item": "ends_delight:raw_dragon_meat",
-  "type": "ends_delight:dragon_leg"
+  "type": "ends_delight:dragon_leg",
+  "priority": 2
 }

@@ -20,5 +20,6 @@
     }
   ],
   "item": "ends_delight:shulker_meat",
-  "type": "ends_delight:shulker_meat"
+  "type": "ends_delight:shulker_meat",
+  "priority": 5
 }

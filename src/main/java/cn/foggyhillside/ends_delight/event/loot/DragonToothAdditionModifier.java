@@ -12,7 +12,7 @@ import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
 import net.neoforged.neoforge.common.loot.LootModifier;
-import org.jetbrains.annotations.NotNull;
+import org.jspecify.annotations.NonNull;
 
 import java.util.function.Supplier;
 
@@ -25,13 +25,13 @@ public class DragonToothAdditionModifier extends LootModifier {
 
     private final Item item;
 
-    protected DragonToothAdditionModifier(LootItemCondition[] conditionsIn, Item item) {
-        super(conditionsIn);
+    protected DragonToothAdditionModifier(LootItemCondition[] conditionsIn, int priority, Item item) {
+        super(conditionsIn, priority);
         this.item = item;
     }
 
     @Override
-    protected @NotNull ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext context) {
+    protected @NonNull ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext context) {
         generatedLoot.add(new ItemStack(item, 3));
         if (context.getRandom().nextFloat() > 0.25) {
             generatedLoot.add(new ItemStack(item, 1));

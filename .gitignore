@@ -24,3 +24,8 @@ runs
 run-data
 
 repo
+# Isolated runtime QA artifacts (reports exported separately)
+qa/runtime/
+qa/shots/
+
+__pycache__/

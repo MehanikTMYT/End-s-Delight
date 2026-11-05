@@ -18,7 +18,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import vectorwing.farmersdelight.common.block.AbstractStoveBlock;
 import vectorwing.farmersdelight.common.registry.ModSounds;
 
-import javax.annotation.Nullable;
+import org.jspecify.annotations.Nullable;
 
 @SuppressWarnings("deprecation")
 public class EndStoveBlock extends AbstractStoveBlock
@@ -40,7 +40,7 @@ public class EndStoveBlock extends AbstractStoveBlock
 
     @Nullable
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state, BlockEntityType<T> blockEntityType) {
-        if (level.isClientSide && state.getValue(LIT)) return createTickerHelper(blockEntityType, ModBlockEntityTypes.END_STOVE.get(), EndStoveBlockEntity::particleTick);
+        if (level.isClientSide() && state.getValue(LIT)) return createTickerHelper(blockEntityType, ModBlockEntityTypes.END_STOVE.get(), EndStoveBlockEntity::particleTick);
         return AbstractStoveBlock.createStoveTicker(level, blockEntityType, ModBlockEntityTypes.END_STOVE.get());
     }
 

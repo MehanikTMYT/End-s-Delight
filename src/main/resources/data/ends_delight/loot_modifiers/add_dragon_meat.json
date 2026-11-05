@@ -9,5 +9,6 @@
     }
   ],
   "item": "ends_delight:raw_dragon_meat",
-  "type": "ends_delight:dragon_meat"
+  "type": "ends_delight:dragon_meat",
+  "priority": 9
 }

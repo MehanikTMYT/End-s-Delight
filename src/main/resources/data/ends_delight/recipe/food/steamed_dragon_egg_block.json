@@ -1,32 +1,15 @@
 {
   "type": "farmersdelight:cooking",
   "ingredients": [
-    {
-      "item": "ends_delight:liquid_dragon_egg"
-    },
-    {
-      "tag": "c:foods/shulker_meat"
-    },
-    {
-      "type": "neoforge:compound",
-      "children": [
-        {
-          "item": "minecraft:chorus_fruit"
-        },
-        {
-          "item": "ends_delight:chorus_fruit_grain"
-        }
-      ]
-    },
-    {
-      "item": "minecraft:brown_mushroom"
-    },
-    {
-      "item": "ends_delight:chorus_succulent"
-    },
-    {
-      "tag": "c:crops/onion"
-    }
+    "ends_delight:liquid_dragon_egg",
+    "#c:foods/shulker_meat",
+    [
+      "minecraft:chorus_fruit",
+      "ends_delight:chorus_fruit_grain"
+    ],
+    "minecraft:brown_mushroom",
+    "ends_delight:chorus_succulent",
+    "#c:crops/onion"
   ],
   "result": {
     "id": "ends_delight:steamed_dragon_egg_block"

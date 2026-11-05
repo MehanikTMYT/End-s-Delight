@@ -1,0 +1,888 @@
+{
+  "items": [
+    "chorus_fruit_crate",
+    "end_stove",
+    "dragon_egg_shell_knife",
+    "purpur_knife",
+    "end_stone_knife",
+    "dragon_tooth_knife",
+    "ender_pearl_grain",
+    "chorus_fruit_grain",
+    "chorus_succulent",
+    "dried_chorus_flower",
+    "dragon_tooth",
+    "non_hatchable_dragon_egg",
+    "half_dragon_egg_shell",
+    "liquid_dragon_egg",
+    "fried_dragon_egg",
+    "shulker_meat",
+    "shulker_meat_slice",
+    "roasted_shulker_meat",
+    "roasted_shulker_meat_slice",
+    "dragon_leg",
+    "smoked_dragon_leg",
+    "raw_dragon_meat",
+    "roasted_dragon_meat",
+    "raw_dragon_meat_cuts",
+    "roasted_dragon_meat_cuts",
+    "raw_ender_mite_meat",
+    "dried_endermite_meat",
+    "enderman_gristle",
+    "chorus_sauce",
+    "shulker_omelette_mixture",
+    "shulker_omelette",
+    "raw_ender_sausage",
+    "ender_sausage",
+    "ender_bamboo_rice",
+    "stuffed_rice_cake",
+    "chorus_flower_pie",
+    "chorus_cookie",
+    "chorus_fruit_popsicle",
+    "chorus_fruit_wine",
+    "chorus_fruit_milk_tea",
+    "bubble_tea",
+    "dragon_breath_soda",
+    "chorus_flower_tea",
+    "chorus_fruit_pie",
+    "chorus_fruit_pie_slice",
+    "ender_congee",
+    "dragon_breath_and_chorus_soup",
+    "shulker_soup",
+    "ender_noodle",
+    "enderman_gristle_stew",
+    "stir_fried_shulker_meat",
+    "roasted_dragon_steak",
+    "end_mixed_salad",
+    "assorted_salad",
+    "end_barbecue_stick",
+    "dragon_leg_with_sauce_block",
+    "dragon_leg_with_sauce",
+    "steamed_dragon_egg_block",
+    "steamed_dragon_egg",
+    "dragon_meat_stew_block",
+    "dragon_meat_stew",
+    "grilled_shulker_block",
+    "grilled_shulker"
+  ],
+  "blocks": [
+    "chorus_fruit_pie",
+    "chorus_succulent",
+    "steamed_dragon_egg_block",
+    "dragon_meat_stew_block",
+    "grilled_shulker_block",
+    "end_stove",
+    "dragon_leg_with_sauce_block",
+    "chorus_fruit_crate"
+  ],
+  "recipes": [
+    "chorus_fruit_crate",
+    "chorus_fruit_crate_to_chorus_fruit",
+    "crack_non_hatchable_dragon_egg",
+    "dragon_egg_shell_knife",
+    "dragon_tooth_knife",
+    "dried_chorus_flower",
+    "dried_chorus_flower_campfire",
+    "end_stone_knife",
+    "end_stove",
+    "ender_pearl_grain",
+    "food/assorted_salad",
+    "food/bubble_tea",
+    "food/chorus_cookie",
+    "food/chorus_flower_pie",
+    "food/chorus_flower_tea",
+    "food/chorus_fruit_grain",
+    "food/chorus_fruit_milk_tea",
+    "food/chorus_fruit_pie",
+    "food/chorus_fruit_pie_cutting",
+    "food/chorus_fruit_pie_from_slices",
+    "food/chorus_fruit_popsicle",
+    "food/chorus_fruit_wine",
+    "food/chorus_sauce",
+    "food/dragon_breath_and_chorus_soup",
+    "food/dragon_breath_soda",
+    "food/dragon_leg_with_sauce_block",
+    "food/dragon_meat_stew_block",
+    "food/end_barbecue_stick",
+    "food/end_mixed_salad",
+    "food/ender_bamboo_rice",
+    "food/ender_congee",
+    "food/ender_noodle",
+    "food/enderman_gristle_stew",
+    "food/grilled_shulker_block",
+    "food/leg_to_meat",
+    "food/raw_dragon_meat_cuts",
+    "food/raw_ender_sausage",
+    "food/roasted_dragon_meat_cuts",
+    "food/roasted_dragon_steak",
+    "food/roasted_shulker_meat_slice",
+    "food/shulker_meat_slice",
+    "food/shulker_omelette_mixture",
+    "food/shulker_soup",
+    "food/smoked_leg_to_meat",
+    "food/steamed_dragon_egg_block",
+    "food/stir_fried_shulker_meat",
+    "food/stuffed_rice_cake",
+    "food_campfire_cooking/dried_endermite_meat_campfire",
+    "food_campfire_cooking/ender_sausage_campfire",
+    "food_campfire_cooking/fried_dragon_egg_campfire",
+    "food_campfire_cooking/roasted_dragon_meat_campfire",
+    "food_campfire_cooking/roasted_dragon_meat_cuts_campfire",
+    "food_campfire_cooking/roasted_shulker_meat_campfire",
+    "food_campfire_cooking/roasted_shulker_meat_slice_campfire",
+    "food_campfire_cooking/shulker_omelette_campfire",
+    "food_smelting/dried_endermite_meat",
+    "food_smelting/ender_sausage",
+    "food_smelting/fried_dragon_egg",
+    "food_smelting/roasted_dragon_meat",
+    "food_smelting/roasted_dragon_meat_cuts",
+    "food_smelting/roasted_shulker_meat",
+    "food_smelting/roasted_shulker_meat_slice",
+    "food_smelting/shulker_omelette",
+    "food_smoking/dried_endermite_meat",
+    "food_smoking/ender_sausage_smoking",
+    "food_smoking/fried_dragon_egg_smoking",
+    "food_smoking/roasted_dragon_meat_cuts_smoking",
+    "food_smoking/roasted_dragon_meat_smoking",
+    "food_smoking/roasted_shulker_meat_slice_smoking",
+    "food_smoking/roasted_shulker_meat_smoking",
+    "food_smoking/shulker_omelette_smoking",
+    "food_smoking/smoked_dragon_leg",
+    "non_hatchable_dragon_egg",
+    "purpur_knife",
+    "succulent_to_dye"
+  ],
+  "foods": [
+    {
+      "item": "chorus_fruit_grain",
+      "nutrition": 1,
+      "saturation": 1.2,
+      "always": false,
+      "ticks": 16,
+      "effects": []
+    },
+    {
+      "item": "chorus_fruit_milk_tea",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [],
+      "remainder": "minecraft:glass_bottle"
+    },
+    {
+      "item": "bubble_tea",
+      "nutrition": 8,
+      "saturation": 8.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [],
+      "remainder": "minecraft:glass_bottle"
+    },
+    {
+      "item": "dragon_breath_soda",
+      "nutrition": 0,
+      "saturation": 0.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:strength",
+          "duration": 1200,
+          "amplifier": 1
+        },
+        {
+          "id": "minecraft:resistance",
+          "duration": 1200,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:glass_bottle"
+    },
+    {
+      "item": "shulker_meat",
+      "nutrition": 4,
+      "saturation": 4.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:levitation",
+          "duration": 80,
+          "amplifier": 1
+        }
+      ]
+    },
+    {
+      "item": "shulker_meat_slice",
+      "nutrition": 2,
+      "saturation": 2.4,
+      "always": true,
+      "ticks": 16,
+      "effects": [
+        {
+          "id": "minecraft:levitation",
+          "duration": 40,
+          "amplifier": 1
+        }
+      ]
+    },
+    {
+      "item": "stir_fried_shulker_meat",
+      "nutrition": 10,
+      "saturation": 16.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:levitation",
+          "duration": 100,
+          "amplifier": 1
+        },
+        {
+          "id": "farmersdelight:nourishment",
+          "duration": 3600,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "item": "fried_dragon_egg",
+      "nutrition": 20,
+      "saturation": 20.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 4800,
+          "amplifier": 2
+        },
+        {
+          "id": "minecraft:strength",
+          "duration": 4800,
+          "amplifier": 2
+        },
+        {
+          "id": "minecraft:resistance",
+          "duration": 4800,
+          "amplifier": 2
+        }
+      ]
+    },
+    {
+      "item": "dragon_leg",
+      "nutrition": 8,
+      "saturation": 9.6,
+      "always": false,
+      "ticks": 32,
+      "effects": []
+    },
+    {
+      "item": "smoked_dragon_leg",
+      "nutrition": 15,
+      "saturation": 18.0,
+      "always": false,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 300,
+          "amplifier": 1
+        }
+      ]
+    },
+    {
+      "item": "chorus_fruit_popsicle",
+      "nutrition": 3,
+      "saturation": 1.2000000000000002,
+      "always": true,
+      "ticks": 32,
+      "effects": []
+    },
+    {
+      "item": "chorus_fruit_wine",
+      "nutrition": 0,
+      "saturation": 0.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [],
+      "remainder": "minecraft:glass_bottle"
+    },
+    {
+      "item": "dragon_breath_and_chorus_soup",
+      "nutrition": 16,
+      "saturation": 19.2,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 400,
+          "amplifier": 1
+        },
+        {
+          "id": "minecraft:strength",
+          "duration": 1200,
+          "amplifier": 1
+        },
+        {
+          "id": "minecraft:resistance",
+          "duration": 1200,
+          "amplifier": 0
+        },
+        {
+          "id": "farmersdelight:comfort",
+          "duration": 3600,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "item": "liquid_dragon_egg",
+      "nutrition": 14,
+      "saturation": 14.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 1200,
+          "amplifier": 0
+        },
+        {
+          "id": "minecraft:strength",
+          "duration": 1200,
+          "amplifier": 0
+        },
+        {
+          "id": "minecraft:resistance",
+          "duration": 1200,
+          "amplifier": 0
+        },
+        {
+          "id": "minecraft:blindness",
+          "duration": 400,
+          "amplifier": 0
+        }
+      ]
+    },
+    {
+      "item": "stuffed_rice_cake",
+      "nutrition": 6,
+      "saturation": 8.399999999999999,
+      "always": true,
+      "ticks": 32,
+      "effects": []
+    },
+    {
+      "item": "raw_ender_mite_meat",
+      "nutrition": 3,
+      "saturation": 3.5999999999999996,
+      "always": false,
+      "ticks": 32,
+      "effects": []
+    },
+    {
+      "item": "dried_endermite_meat",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "always": false,
+      "ticks": 32,
+      "effects": []
+    },
+    {
+      "item": "raw_dragon_meat",
+      "nutrition": 8,
+      "saturation": 9.6,
+      "always": false,
+      "ticks": 32,
+      "effects": []
+    },
+    {
+      "item": "end_barbecue_stick",
+      "nutrition": 10,
+      "saturation": 14.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 100,
+          "amplifier": 1
+        }
+      ]
+    },
+    {
+      "item": "roasted_dragon_meat",
+      "nutrition": 15,
+      "saturation": 18.0,
+      "always": false,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 300,
+          "amplifier": 1
+        }
+      ]
+    },
+    {
+      "item": "chorus_flower_tea",
+      "nutrition": 0,
+      "saturation": 0.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 100,
+          "amplifier": 1
+        },
+        {
+          "id": "minecraft:resistance",
+          "duration": 400,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:glass_bottle"
+    },
+    {
+      "item": "roasted_shulker_meat",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:levitation",
+          "duration": 80,
+          "amplifier": 1
+        }
+      ]
+    },
+    {
+      "item": "roasted_shulker_meat_slice",
+      "nutrition": 3,
+      "saturation": 4.800000000000001,
+      "always": true,
+      "ticks": 16,
+      "effects": [
+        {
+          "id": "minecraft:levitation",
+          "duration": 40,
+          "amplifier": 1
+        }
+      ]
+    },
+    {
+      "item": "raw_dragon_meat_cuts",
+      "nutrition": 3,
+      "saturation": 3.5999999999999996,
+      "always": false,
+      "ticks": 16,
+      "effects": []
+    },
+    {
+      "item": "roasted_dragon_meat_cuts",
+      "nutrition": 6,
+      "saturation": 7.199999999999999,
+      "always": false,
+      "ticks": 16,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 100,
+          "amplifier": 1
+        }
+      ]
+    },
+    {
+      "item": "dragon_meat_stew",
+      "nutrition": 10,
+      "saturation": 12.0,
+      "always": false,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:absorption",
+          "duration": 1500,
+          "amplifier": 2
+        },
+        {
+          "id": "minecraft:regeneration",
+          "duration": 300,
+          "amplifier": 1
+        },
+        {
+          "id": "minecraft:strength",
+          "duration": 600,
+          "amplifier": 1
+        },
+        {
+          "id": "farmersdelight:nourishment",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "item": "chorus_succulent",
+      "nutrition": 2,
+      "saturation": 3.2,
+      "always": false,
+      "ticks": 16,
+      "effects": []
+    },
+    {
+      "item": "end_mixed_salad",
+      "nutrition": 10,
+      "saturation": 12.0,
+      "always": false,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 120,
+          "amplifier": 0
+        },
+        {
+          "id": "minecraft:speed",
+          "duration": 200,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "item": "assorted_salad",
+      "nutrition": 14,
+      "saturation": 14.0,
+      "always": false,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 200,
+          "amplifier": 0
+        },
+        {
+          "id": "minecraft:speed",
+          "duration": 500,
+          "amplifier": 0
+        },
+        {
+          "id": "minecraft:strength",
+          "duration": 500,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:shulker_shell"
+    },
+    {
+      "item": "chorus_flower_pie",
+      "nutrition": 4,
+      "saturation": 4.8,
+      "always": false,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 100,
+          "amplifier": 0
+        }
+      ]
+    },
+    {
+      "item": "steamed_dragon_egg",
+      "nutrition": 12,
+      "saturation": 14.399999999999999,
+      "always": false,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:absorption",
+          "duration": 1200,
+          "amplifier": 2
+        },
+        {
+          "id": "farmersdelight:nourishment",
+          "duration": 6000,
+          "amplifier": 0
+        },
+        {
+          "id": "minecraft:regeneration",
+          "duration": 1200,
+          "amplifier": 2
+        },
+        {
+          "id": "minecraft:strength",
+          "duration": 1200,
+          "amplifier": 2
+        },
+        {
+          "id": "minecraft:resistance",
+          "duration": 1200,
+          "amplifier": 2
+        }
+      ],
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "item": "grilled_shulker",
+      "nutrition": 8,
+      "saturation": 9.6,
+      "always": false,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 100,
+          "amplifier": 0
+        },
+        {
+          "id": "minecraft:levitation",
+          "duration": 40,
+          "amplifier": 1
+        },
+        {
+          "id": "farmersdelight:nourishment",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "item": "roasted_dragon_steak",
+      "nutrition": 18,
+      "saturation": 18.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 500,
+          "amplifier": 1
+        },
+        {
+          "id": "farmersdelight:nourishment",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "item": "chorus_sauce",
+      "nutrition": 3,
+      "saturation": 3.0,
+      "always": false,
+      "ticks": 32,
+      "effects": [],
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "item": "chorus_cookie",
+      "nutrition": 2,
+      "saturation": 2.4,
+      "always": false,
+      "ticks": 32,
+      "effects": []
+    },
+    {
+      "item": "ender_congee",
+      "nutrition": 10,
+      "saturation": 12.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 300,
+          "amplifier": 1
+        },
+        {
+          "id": "minecraft:resistance",
+          "duration": 900,
+          "amplifier": 1
+        },
+        {
+          "id": "minecraft:health_boost",
+          "duration": 900,
+          "amplifier": 2
+        },
+        {
+          "id": "farmersdelight:comfort",
+          "duration": 3600,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "item": "dragon_leg_with_sauce",
+      "nutrition": 10,
+      "saturation": 14.0,
+      "always": false,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:absorption",
+          "duration": 1500,
+          "amplifier": 2
+        },
+        {
+          "id": "minecraft:regeneration",
+          "duration": 300,
+          "amplifier": 1
+        },
+        {
+          "id": "farmersdelight:nourishment",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "item": "enderman_gristle",
+      "nutrition": 2,
+      "saturation": 3.2,
+      "always": true,
+      "ticks": 16,
+      "effects": []
+    },
+    {
+      "item": "raw_ender_sausage",
+      "nutrition": 6,
+      "saturation": 7.199999999999999,
+      "always": true,
+      "ticks": 32,
+      "effects": []
+    },
+    {
+      "item": "ender_sausage",
+      "nutrition": 9,
+      "saturation": 10.799999999999999,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 160,
+          "amplifier": 1
+        }
+      ]
+    },
+    {
+      "item": "enderman_gristle_stew",
+      "nutrition": 7,
+      "saturation": 9.799999999999999,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "farmersdelight:nourishment",
+          "duration": 3600,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "item": "shulker_soup",
+      "nutrition": 8,
+      "saturation": 9.6,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:levitation",
+          "duration": 100,
+          "amplifier": 1
+        },
+        {
+          "id": "farmersdelight:comfort",
+          "duration": 3600,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "item": "ender_noodle",
+      "nutrition": 8,
+      "saturation": 9.6,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:levitation",
+          "duration": 50,
+          "amplifier": 1
+        },
+        {
+          "id": "farmersdelight:comfort",
+          "duration": 3600,
+          "amplifier": 0
+        }
+      ],
+      "remainder": "minecraft:bowl"
+    },
+    {
+      "item": "shulker_omelette_mixture",
+      "nutrition": 5,
+      "saturation": 5.0,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:levitation",
+          "duration": 100,
+          "amplifier": 1
+        }
+      ]
+    },
+    {
+      "item": "shulker_omelette",
+      "nutrition": 11,
+      "saturation": 13.2,
+      "always": true,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:levitation",
+          "duration": 100,
+          "amplifier": 1
+        },
+        {
+          "id": "minecraft:regeneration",
+          "duration": 100,
+          "amplifier": 0
+        }
+      ]
+    },
+    {
+      "item": "ender_bamboo_rice",
+      "nutrition": 15,
+      "saturation": 18.0,
+      "always": false,
+      "ticks": 32,
+      "effects": [
+        {
+          "id": "minecraft:regeneration",
+          "duration": 300,
+          "amplifier": 1
+        },
+        {
+          "id": "farmersdelight:nourishment",
+          "duration": 3600,
+          "amplifier": 0
+        }
+      ]
+    }
+  ]
+}
