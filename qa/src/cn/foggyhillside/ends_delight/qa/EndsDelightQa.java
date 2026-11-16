@@ -269,6 +269,8 @@ public class EndsDelightQa {
             var recipe = stove.getCookingRecipe(input).orElseThrow();
             check("stove-insert/"+i, stove.placeFood(p, input, recipe), recipe.id());
         }
+        var update = stove.getUpdateTag(level.registryAccess());
+        check("stove-update-tag-six-items", update.getCompound("Inventory").flatMap(n -> n.getList("Items")).map(n -> n.size() == 6).orElse(false), update);
         for (int t = 0; t < 650; t++) AbstractStoveBlockEntity.serverTick(level, pos, level.getBlockState(pos), stove);
         int cooked = level.getEntitiesOfClass(ItemEntity.class, new AABB(pos).inflate(2)).stream().filter(e -> e.getItem().is(ModItems.ROASTED_DRAGON_MEAT.get())).mapToInt(e -> e.getItem().getCount()).sum();
         check("stove-cooks-six", stove.isEmpty() && cooked >= 6, "empty="+stove.isEmpty()+" cooked="+cooked);

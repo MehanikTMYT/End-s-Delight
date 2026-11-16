@@ -17,6 +17,13 @@ public class EndStoveBlockEntity extends AbstractStoveBlockEntity {
         super(ModBlockEntityTypes.END_STOVE.get(), pos, state, RecipeType.CAMPFIRE_COOKING);
     }
 
+    // FD fix7 sends a BE data packet but inherits BlockEntity's empty update tag.
+    // Include the saved inventory for both initial chunk data and slot updates.
+    @Override
+    public net.minecraft.nbt.CompoundTag getUpdateTag(net.minecraft.core.HolderLookup.Provider registries) {
+        return saveWithoutMetadata(registries);
+    }
+
     public static void particleTick(Level level, BlockPos pos, BlockState state, EndStoveBlockEntity stove) {
         if (stove.isEmpty()) return;
         stove.addSmokeParticles();
